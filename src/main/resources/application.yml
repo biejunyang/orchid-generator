@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  freemarker:
+    suffix: .ftl
+    cache: false
+    charset: UTF-8
+
+generator:
+  project:
+    basePath: E:\\
+    name: orchid-generator
+    groupId: com.orchid
+    artifactId: orchid-generator
+    version: 1.0-SNAPSHOT
