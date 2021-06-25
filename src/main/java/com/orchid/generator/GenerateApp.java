@@ -83,7 +83,7 @@ public class GenerateApp {
 
 
         File mainJava=new File(packageDir, mainClassName+".java");
-        data=new HashMap<>();
+        data=new HashMap<String, Object>();
         data.put("basePackage", basePackage);
         data.put("mainClassName", mainClassName);
         template=configuration.getTemplate("MainApp.java.ftl");
